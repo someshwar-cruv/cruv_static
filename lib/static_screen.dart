@@ -251,7 +251,7 @@ class Screen extends StatelessWidget {
             ),
             Stack(
               children: [
-                Expanded(
+                SizedBox(
                   child: Image.asset('assets/Mask group.png'),
                 ),
                 Padding(
